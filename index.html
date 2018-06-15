@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>SquareCrypto</title>
+
+  <link href="css\bootstrap.min.css" rel="stylesheet">
+  <link href="css\signin.css" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#div1").hide();
+        $("#div2").show();
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("p").click(function(){
+        $("#div1").show();
+        $("#div2").hide();
+    });
+});
+</script>
+
+</head>
+
+<body class="text-center">
+  <form class="form-signin" id="div1">
+    <h1>Try Cobalt for free.</h1>
+    <button class="btn btn-lg btn-primary btn-block" id="Wallet">Sign up with a Wallet Address</button>
+    <h2>or</h2>
+    <label for="inputEmail" class="sr-only">Email address</label>
+    <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+
+    <button class="btn btn-lg btn-primary btn-block" id="SignUP" type="submit">Sign up</button>
+    <p>
+      <a href="https://www.w3schools.com/html/">Already have an account?</a>
+    </p>
+  </form>
+
+  <form class="form-signin" id="div2" style="display: none;">
+    <h1>Try Cobalt for free.</h1>
+    <label for="inputEmail" class="sr-only">Email address</label>
+    <input type="wallet" id="inputWallet" class="form-control" placeholder="Wallet Address" required autofocus>
+    <h2>+</h2>
+    <label for="inputEmail" class="sr-only">Email address</label>
+    <input type="email" id="inputEmail" class="form-control" placeholder="Sign" required autofocus>
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input type="password" id="inputPassword" class="form-control" placeholder="Signature" required>
+
+    <button class="btn btn-lg btn-primary btn-block" id="SignUP" type="submit">Verify</button>
+    <p>
+      <a href="#">Return.</a>
+    </p>
+  </form>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+
+</html>

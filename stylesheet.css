@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'lucida_granderegular';
+    src: url('css/fonts/lucidagrande-webfont.woff2') format('woff2'),
+         url('css/fonts/lucidagrande-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
